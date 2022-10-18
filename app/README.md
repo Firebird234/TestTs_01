@@ -23,4 +23,8 @@
 2. Установить все зависимости npm install.
 3. Запустить проект npm start.
 
-<!-- ### Демо: -->
+если апи сломано, есть response.json с данными ./app/data
+
+### Демо:
+
+https://test-001-gold.vercel.app/
