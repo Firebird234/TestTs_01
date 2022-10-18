@@ -1,0 +1,66 @@
+.programm {
+    padding-top: 68px;
+}
+
+.programm:nth-child(2) {
+    padding-top: 88px;
+}
+
+.programm__modules {
+    display: flex;
+    gap: 45px;
+
+}
+
+
+.programm__title {
+    margin: 0 0 54px;
+width: max-content;
+    font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 120%;
+ }
+
+
+ @media screen and (max-width: 1400px) {
+    .programm__modules {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .programm__title {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .programm__modules {
+        flex-direction: column;
+    }
+
+    .programm__title {
+        font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+margin-bottom: 24px;
+max-width: 345px;
+    }
+
+    .programm__modules {
+        display: flex;
+        gap: 12px;
+    
+    }
+
+    .programm {
+        padding-top: 35px;
+        padding-bottom: 0;
+    }
+
+    .programm:nth-child(2) {
+        padding-top: 35px;
+    }
+
+}

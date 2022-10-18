@@ -1,0 +1,152 @@
+.cards {
+    padding-top: 132px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 1286px;
+}
+
+.card {
+    box-sizing: border-box;
+    width: 628px;
+    height: 293px;
+    background-color: #FF3535;
+    position: relative;
+    padding-top: 56px;
+    padding-left: 56px;
+}
+
+.card__corner {
+    width: 43px;
+    height: 43px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: linear-gradient(to bottom left, white 50%, #CD1800 50%);
+}
+
+.card_black {
+    padding-top: 52px;
+    padding-left: 42px;
+    background-color: #2D2C2A;
+}
+
+.card__title {
+    color: white;
+    font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 120%;
+width: 496px;
+text-align: left;
+margin: 0 0 24px
+}
+
+.card__description {
+width: 496px;
+text-align: left;
+margin: 0;
+    color: white;
+    font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 130%;
+}
+
+.card__list {color: white;
+width: 515px;
+text-align: left;
+margin: 0 0 0 -8px;
+list-style: none;
+padding: 0;}
+
+.card__listEl {
+    box-sizing: border-box;
+    position: relative;
+    padding-left: 28px;
+    font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 130%;
+}
+
+.card__listEl::before {
+    content: ' ';
+    width: 5px;
+    height: 5px;
+    background-color: #FF3535;
+    position: absolute;
+    border-radius: 50%;
+    left: 9px;
+    top: 7px;
+}
+
+@media screen and (max-width: 1800px) {
+
+
+
+    .cards {
+
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 1400px) {
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .cards {
+        width: 345px;
+        flex-direction: column;
+        padding-top: 44px;
+        gap: 23px;
+    }
+
+    .card {
+        width: 100%;
+        padding: 0;
+        padding-top: 31px;
+        height: 231px;
+    }
+
+    .card__title {
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 120%;
+        width: 311px;
+        margin-left: 17px;
+    }
+    
+    .card__description {
+    width: 300px;
+    font-weight: 300;
+font-size: 20px;
+line-height: 130%;
+margin-left: 22px;
+    }
+
+    .card_black {
+        height: 342px;
+    }
+
+    .card__list {
+        display: flex;
+        width: 290px;
+        flex-direction: column;
+        padding-left: 22px;
+        gap: 15px;
+    }
+
+    .card__corner {
+        width: 26px;
+        height: 26px;
+        position: absolute;
+
+    }
+}

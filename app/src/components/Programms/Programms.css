@@ -1,0 +1,55 @@
+.programms__title {
+    align-self: flex-start;
+    font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 120%;
+width: 706px;
+position: relative;
+left: 222px;
+margin: 0;
+
+}
+
+.programms {
+    padding-top: 71px;
+    margin: auto;
+    width: 1256px;
+}
+
+
+@media screen and (max-width: 1800px) {
+
+    .programms__title {
+width: 100%;
+left: 0;
+    }
+
+    .programms {
+
+        width: 80%;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    .programms {
+        width: 100%;
+        font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 120%;
+padding-top: 28px;
+text-align: left;
+
+    }
+
+    .programms__title {
+        font-weight: 500;
+font-size: 28px;
+line-height: 120%;
+        width: 100%;
+left: 0;
+margin-right: 0;
+    }
+}

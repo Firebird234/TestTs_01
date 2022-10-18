@@ -1,0 +1,30 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Styrene A Web';
+    margin: auto;
+    width: 1440px;
+    padding-bottom: 171px;
+}
+
+.main__title {
+    font-family: 'Styrene A Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 120%;
+    color: #000000;}
+
+
+    
+@media screen and (max-width: 1800px) {
+    .main {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .main {
+        width: 345px;
+    }
+}

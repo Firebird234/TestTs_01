@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Styrene A Web";
+  font-style: bold;
+  font-weight: 300;
+  font-display: swap;
+  src: url("../font-family/StyreneAWeb/StyreneAWeb-Light.woff2") format("woff2")
+}
+
+
+@font-face {
+    font-family: "Styrene A Web";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../font-family/StyreneAWeb/StyreneAWeb-Regular.woff2") format("woff2")
+  }
+
+  @font-face {
+    font-family: "Styrene A Web";
+    font-style: bold;
+    font-weight: 500;
+    font-display: swap;
+    src: url("../font-family/StyreneAWeb/StyreneAWeb-Medium.woff2") format("woff2")
+  }
+
+  @font-face {
+    font-family: "Styrene A Web";
+    font-style: bold;
+    font-weight: 700;
+    font-display: swap;
+    src: url("../font-family/StyreneAWeb/StyreneAWeb-Bold.woff2") format("woff2")
+  }
+
+  @font-face {
+    font-family: "Styrene A Web";
+    font-style: bold;
+    font-weight: 900;
+    font-display: swap;
+    src: url("../font-family/StyreneAWeb/StyreneAWeb-Black.woff2") format("woff2")
+  }
+
+  

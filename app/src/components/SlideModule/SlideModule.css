@@ -1,0 +1,102 @@
+.slideProgram {
+
+}
+
+
+.slideProgram_moduleButton {
+    visibility: visible;
+    border: none;
+    background-image: url('../../images/icon.png');
+    background-size: 18px;
+    object-fit: cover;
+    width: 18px;
+    height: 18px;
+    background-color: inherit;
+    cursor: pointer;
+    position: absolute;
+    left: 24px;
+    top: 15px;
+}
+
+
+.slideProgram__title {
+    font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+}
+
+.slideProgram__modules {
+    flex-direction: column;
+}
+
+.slideProgram__module {
+    flex-direction: column;
+    position: relative;
+
+}
+
+.slideProgram__disciplines {
+    display: none;
+    transition: all .4s;
+    font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 130%;
+padding: 18px 0 0 20px;
+list-style: none;
+
+}
+
+.slideProgram__moduleNumber {
+    transition: all .64s;
+    cursor: pointer;
+    width: 345px;
+    height: 51px;
+    background-color: #F7F7F7;
+    border:none;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 130%;
+    display: flex;
+    justify-content: start;
+    padding: 0 0 0 68px;
+    align-items: center;
+    position: relative;
+    box-sizing: border-box;
+    } 
+
+
+.slideProgram__disciplines_active {
+display: flex;
+gap: 9px;
+flex-direction: column;
+        }
+
+.slideProgram_moduleButton_active {
+    background-image: url('../../images/iconActive.png') !important;
+    width: 18px;
+    height: 2px;
+    top: 24px;
+}
+
+.slideProgram__moduleNumber_active {
+    background-color: #FF3535;
+    ;
+}
+
+.slideProgram__discipline {
+    position: relative;
+}
+
+.slideProgram__discipline::before {
+    content: ' ';
+    width: 5px;
+    height: 5px;
+    background-color: red;
+    position: absolute;
+    border-radius: 50%;
+    left: -20px;
+    top: 7px;
+}
